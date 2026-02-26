@@ -4,8 +4,7 @@
    Project: User Centric Frontend Development Milestone 1
    Last Updated:23 Feb 2026
 ====================================================== */
-
-/* ================= GLOBAL RESET ================= */
+/* GLOBAL RESET */
 * {
     margin: 0;
     padding: 0;
@@ -19,20 +18,15 @@ body {
     color: #333;
 }
 
-/* ================= HEADER ================= */
+/* HEADER */
 header {
-    background: linear-gradient(to right, #000000, #333333);
-    color: #ffffff;
+    background: linear-gradient(to right, #000, #333);
+    color: white;
     text-align: center;
     padding: 25px 10px;
 }
 
-header h1 {
-    letter-spacing: 2px;
-    font-size: 28px;
-}
-
-/* ================= NAVIGATION ================= */
+/* NAVIGATION */
 nav {
     background-color: #ff6600;
 }
@@ -53,59 +47,49 @@ nav ul li a {
     color: white;
     font-weight: 600;
     padding: 8px 14px;
-    transition: all 0.3s ease;
+    transition: 0.3s;
 }
 
-nav ul li a:hover {
+nav ul li a:hover,
+nav ul li a.active {
     background-color: white;
     color: #ff6600;
     border-radius: 6px;
 }
 
-/* ================= SECTION TITLES ================= */
-.section-title {
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 25px;
-}
-
-/* ================= HERO SECTION ================= */
+/* HERO */
 .hero {
     background: url('../images/welcoming-gym-community.png') center/cover no-repeat;
     height: 75vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 
 .hero h2 {
     background: rgba(0,0,0,0.65);
     color: white;
     padding: 20px 30px;
-    font-size: 36px;
     border-radius: 10px;
 }
 
-/* ================= COLOURED SECTIONS ================= */
-.section-light {
-    background: #ffffff;
-    padding: 60px 12%;
-}
-
-.section-dark {
-    background: #1c1c1c;
-    color: white;
-    padding: 60px 12%;
-}
-
+/* SECTIONS */
+.section-light,
+.section-dark,
 .section-orange {
-    background: #ff6600;
-    color: white;
     padding: 60px 12%;
 }
 
-/* ================= CARD SYSTEM ================= */
+.section-light { background: white; }
+.section-dark { background: #1c1c1c; color: white; }
+.section-orange { background: #ff6600; color: white; }
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* CARDS */
 .card-container {
     display: flex;
     flex-wrap: wrap;
@@ -118,22 +102,39 @@ nav ul li a:hover {
     width: 300px;
     padding: 25px;
     border-radius: 10px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-align: center;
+    transition: 0.3s;
 }
 
 .card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-8px);
     box-shadow: 0 12px 25px rgba(0,0,0,0.2);
 }
 
 .card img {
     width: 100%;
     border-radius: 8px;
-    margin-bottom: 15px;
 }
 
-/* ================= FORM ================= */
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+table th {
+    background: #ff6600;
+    color: white;
+}
+
+/* FORM */
 form {
     max-width: 600px;
     margin: auto;
@@ -144,8 +145,8 @@ form textarea {
     width: 100%;
     padding: 12px;
     margin-bottom: 15px;
-    border: 1px solid #ccc;
     border-radius: 6px;
+    border: 1px solid #ccc;
 }
 
 form button {
@@ -153,21 +154,15 @@ form button {
     color: white;
     border: none;
     padding: 12px;
-    cursor: pointer;
     border-radius: 6px;
-    transition: background 0.3s ease;
+    cursor: pointer;
 }
 
 form button:hover {
-    background: #000000;
+    background: #000;
 }
 
-/* ================= MAP ================= */
-.map-container {
-    margin-top: 30px;
-}
-
-/* ================= FOOTER ================= */
+/* FOOTER */
 footer {
     background: #111;
     color: white;
@@ -175,27 +170,14 @@ footer {
     padding: 20px;
 }
 
-/* ================= RESPONSIVE ================= */
+/* RESPONSIVE */
 @media (max-width: 768px) {
-
     nav ul {
         flex-direction: column;
-        align-items: center;
     }
 
     .card-container {
         flex-direction: column;
         align-items: center;
-    }
-
-    .hero h2 {
-        font-size: 24px;
-        padding: 15px;
-    }
-
-    .section-light,
-    .section-dark,
-    .section-orange {
-        padding: 40px 8%;
     }
 }
