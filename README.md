@@ -21,7 +21,7 @@ The website represents a modern fitness centre offering:
 - Contact form for enquiries
 - Google Maps integration
 
-## ser Experience (UX)
+## User Experience (UX)
 ### Project Goals
 - Provide clear and intuitive navigation
 - Present gym services in a structured format
