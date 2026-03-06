@@ -77,7 +77,7 @@ BEFITWITHJEMAL-GYM
 
 
 ## Deployment
-
+ Githup pages link:https://github.com/hangelaj/user-centric-frontend-development-milestone-project-1/settings/pages
 This project is deployed using GitHub Pages.
 
 To deploy:
@@ -88,9 +88,7 @@ To deploy:
 4. Select folder: / (root) or /pages
 5. Save
 
-Your live site will be available at:
-
-https://your-username.github.io/BEFITWITHJEMAL-GYM/
+The live site will be available at:https://hangelaj.github.io/user-centric-frontend-development-milestone-project-1/ 
 
 ## Website Work on All Screens
 
