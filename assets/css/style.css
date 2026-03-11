@@ -2,182 +2,168 @@
    BefitwithJemal Gym - Professional Stylesheet
    Author: Jemal Hangela
    Project: User Centric Frontend Development Milestone 1
-   Last Updated: 07 March 2026
+   Last Updated: March 2026
 ====================================================== */
+
+
 /* GLOBAL RESET */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 
-body {
-    font-family: 'Segoe UI', Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f6f9;
-    color: #333;
+/* BODY */
+
+body{
+font-family:Arial, sans-serif;
+background:#f4f4f4;
+line-height:1.6;
 }
 
 /* HEADER */
-header {
-    background: linear-gradient(to right, #000, #333);
-    color: white;
-    text-align: center;
-    padding: 25px 10px;
+
+header{
+background:#111;
+color:white;
+padding:20px;
+text-align:center;
 }
 
-/* NAVIGATION */
-nav {
-    background-color: #ff6600;
+/* NAVBAR */
+
+nav{
+background:#ff6600;
 }
 
-nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    flex-wrap: wrap;
+nav ul{
+display:flex;
+justify-content:center;
+list-style:none;
 }
 
-nav ul li {
-    margin: 10px 15px;
+nav li{
+margin:10px 20px;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-weight: 600;
-    padding: 8px 14px;
-    transition: 0.3s;
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
 }
 
-nav ul li a:hover,
-nav ul li a.active {
-    background-color: white;
-    color: #ff6600;
-    border-radius: 6px;
+nav a:hover{
+color:black;
 }
 
 /* HERO */
-.hero {
-    background: url('../images/welcoming-gym-community.png') center/cover no-repeat;
-    height: 75vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.hero{
+background:#333;
+color:white;
+padding:100px 20px;
+text-align:center;
 }
 
-.hero h2 {
-    background: rgba(0,0,0,0.65);
-    color: white;
-    padding: 20px 30px;
-    border-radius: 10px;
+.hero h2{
+font-size:36px;
 }
 
-/* SECTIONS */
-.section-light,
-.section-dark,
-.section-orange {
-    padding: 60px 12%;
+/* SECTION */
+
+.section{
+padding:60px 20px;
+max-width:1100px;
+margin:auto;
 }
 
-.section-light { background: white; }
-.section-dark { background: #1c1c1c; color: white; }
-.section-orange { background: #ff6600; color: white; }
-
-.section-title {
-    text-align: center;
-    margin-bottom: 30px;
+.section h2{
+text-align:center;
+margin-bottom:20px;
 }
 
 /* CARDS */
-.card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
+
+.cards{
+display:flex;
+flex-wrap:wrap;
+gap:20px;
+justify-content:center;
 }
 
-.card {
-    background: white;
-    width: 300px;
-    padding: 25px;
-    border-radius: 10px;
-    text-align: center;
-    transition: 0.3s;
+.card{
+background:white;
+padding:20px;
+width:300px;
+border-radius:8px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
 }
 
-.card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+/* GALLERY */
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
 }
 
-.card img {
-    width: 100%;
-    border-radius: 8px;
+.gallery img{
+width:100%;
+border-radius:8px;
 }
 
 /* TABLE */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 30px;
+
+table{
+width:100%;
+border-collapse:collapse;
+background:white;
 }
 
-table th, table td {
-    border: 1px solid #ddd;
-    padding: 12px;
-    text-align: center;
+table th, table td{
+border:1px solid #ddd;
+padding:10px;
+text-align:center;
 }
 
-table th {
-    background: #ff6600;
-    color: white;
+table th{
+background:#ff6600;
+color:white;
 }
 
 /* FORM */
-form {
-    max-width: 600px;
-    margin: auto;
+
+form{
+max-width:500px;
+margin:auto;
 }
 
-form input,
-form textarea {
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 15px;
-    border-radius: 6px;
-    border: 1px solid #ccc;
+form input, form textarea{
+width:100%;
+padding:10px;
+margin-bottom:10px;
+border:1px solid #ccc;
 }
 
-form button {
-    background: #ff6600;
-    color: white;
-    border: none;
-    padding: 12px;
-    border-radius: 6px;
-    cursor: pointer;
+button{
+background:#ff6600;
+color:white;
+border:none;
+padding:10px;
+cursor:pointer;
 }
 
-form button:hover {
-    background: #000;
+button:hover{
+background:black;
 }
 
 /* FOOTER */
-footer {
-    background: #111;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
 
-/* RESPONSIVE */
-@media (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-    }
-
-    .card-container {
-        flex-direction: column;
-        align-items: center;
-    }
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
 }
