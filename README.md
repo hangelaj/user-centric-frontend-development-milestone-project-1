@@ -83,7 +83,7 @@ BEFITWITHJEMAL GYM-MILESTONE-PROJECT-1
 
 
 ## Deployment
- Githup pages link: https://hangelaj.github.io/BefitwithJemal-Gym-milestone-project-1/
+ Githup pages link: https://github.com/hangelaj/BefitwithJemal-Gym-milestone-project-1
 
 To deploy:
 
@@ -93,7 +93,6 @@ To deploy:
 4. Select folder: / (root) or /pages
 5. Save
 
-<<<<<<< HEAD
 ## The live site will be available at: https://hangelaj.github.io/BefitwithJemal-Gym-milestone-project-1/
 
 I attempted to deploy my website and provide a live link; however, I encountered a technical issue and the link is currently not working. Sam advised me to submit the project without the GitHub Pages link at this time and finaly I have sorted please check the above live link.
