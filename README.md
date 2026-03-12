@@ -94,8 +94,7 @@ To deploy:
 5. Save
 
 ## The live site will be available at: https://hangelaj.github.io/BefitwithJemal-Gym-milestone-project-1/
-
-I attempted to deploy my website and provide a live link; however, I encountered a technical issue and the link is currently not working. Sam advised me to submit the project without the GitHub Pages link at this time and finaly I have sorted please check the above live link.
+I attempted to deploy my website and provide a live link over the last few weeks; however, I encountered a technical issue and the link is currently not working. Sam advised me to submit the project without the GitHub Pages live link at that time and finaly I have sorted please check the above live link as shown above.
 ## Website Work on All Screens
 
 ### website will display on:
