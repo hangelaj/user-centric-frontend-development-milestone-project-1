@@ -126,7 +126,7 @@ README.md
 ### Testing Page
 ![Test](assets/images/screenshots/test.png)
 
-## Screenshots Video Recording included in the project submission
+## Screenshots Video Recording and PDF Project Report included in the project submission
 
 ### Mobile View
 ![Mobile](assets/images/screenshots/mobile.png.png)
@@ -154,8 +154,10 @@ Validation error (iframe)	    Used CSS width instead
 Section warning	               Added headings
 
 ## Validation
-- HTML Validated using W3C Validator = No critical errors
-- CSS Validated using Jigsaw Validator = No errors
+- HTML Validated using W3C Validator = Document checking completed. No errors or warnings to show.
+- https://validator.w3.org/nu/?doc=https%3A%2F%2Fhangelaj.github.io%2FBefitwithJemal-Gym-milestone-project-1%2F
+- CSS Validated using Jigsaw Validator = Congratulations! No Error Found.
+- https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fhangelaj.github.io%2FBefitwithJemal-Gym-milestone-project-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
 
 ## Development Process
 
